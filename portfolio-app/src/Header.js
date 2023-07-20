@@ -11,16 +11,16 @@ const Header = () => {
             <a href="/">Home</a>
           </li>
           <li>
-            <a href="/AboutPage">About Me</a>
+            <a href="/About">About Me</a>
           </li>
           <li>
-            <a href="/PortfolioPage">Portfolio</a>
+            <a href="/Portfolio">Portfolio</a>
           </li>
           <li>
-            <a href="/ResumePage">Resume</a>
+            <a href="/Resume">Resume</a>
           </li>
           <li>
-            <a href="/ContactPage">Contact</a>
+            <a href="/Contact">Contact</a>
           </li>
         </ul>
       </nav>

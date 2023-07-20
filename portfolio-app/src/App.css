@@ -50,16 +50,18 @@
 
 .footer {
   display: flex;
-  justify-content: center;
+  justify-content: space-evenly;
   align-items: center;
   height: 80px; 
   background-color: #342834; 
+  padding: 10px 0;
 }
 
 .footer p {
   font-weight: bold;
   font-size: 18px;
   color: rgb(219, 104, 234);
+  margin: 0;
 }
 
 /* About.css */
@@ -119,11 +121,17 @@ button {
 
 /* Portfolio.css */
 .portfolio-container {
+  position: relative; /* Set relative positioning for the container */
   display: flex;
   flex-wrap: wrap;
   justify-content: space-between;
-  max-width: 800px; 
-  margin: 0 auto; 
+  max-width: 800px;
+  margin: 0 auto;
+}
+.portfolio-heading-container {
+  flex-basis: 100%; /* Ensure the heading container spans the full width */
+  text-align: center; /* Center the heading within the container */
+  margin-top: 20px;
 }
 
 .box {
@@ -136,6 +144,7 @@ button {
   align-items: center;
 }
 
+
 /* Resume.css */
 .resume-container {
   text-align: center;
@@ -144,8 +153,9 @@ button {
 .resume-image {
   max-width: 400px;
   height: auto;
-  margin: 20px 0;
+  margin: 20px auto;
   box-shadow: 0 2px 4px #ad8dad;
+  
 }
 
 a {

@@ -4,7 +4,9 @@ import './App.css';
 const Footer = () => {
   return (
     <footer className="footer">
-      <p>LaChaznie Moore, 2023</p>
+      <p>moore.lachaznie@gmail.com</p>
+      <p>LinkIn</p>
+      <p>Git Hub</p>
     </footer>
   );
 };
