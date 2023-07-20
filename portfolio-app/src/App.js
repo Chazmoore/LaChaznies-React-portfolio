@@ -4,21 +4,16 @@ import Header from './Header';
 
 function App() {
   return (
-    <div className="header">
-      <header className="header">
+    <div className="body">
+      <header className="body">
         
         <p>
          LaChaznie M Moore
         </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
+       
       </header>
+
+      
     </div>
   );
 }

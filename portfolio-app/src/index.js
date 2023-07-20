@@ -3,11 +3,23 @@ import ReactDOM from 'react-dom/client';
 import './index.css';
 import App from './App';
 import reportWebVitals from './reportWebVitals';
+import Header from './Header';
+import Footer from './Footer';
+import About from './About';
+import Contact from './Contact';
+import Portfolio from './Portfolio';
+import Resume from './Resume';
 
 const root = ReactDOM.createRoot(document.getElementById('root'));
 root.render(
   <React.StrictMode>
+    <Header/>
     <App />
+    <About/>
+    <Portfolio/>
+    <Resume/>
+    <Contact/>
+    <Footer/>
   </React.StrictMode>
 );
 

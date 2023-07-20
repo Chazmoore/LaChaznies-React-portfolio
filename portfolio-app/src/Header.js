@@ -1,26 +1,26 @@
 // Header.js
 import React from 'react';
-import { Link } from 'react-router-dom';
+import './App.css'
 
 const Header = () => {
   return (
     <header>
       <nav>
-        <ul>
+        <ul className="navigation">
           <li>
-            <Link to="/">Home</Link>
+            <a href="/">Home</a>
           </li>
           <li>
-            <Link to="/about">About Me</Link>
+            <a href="/AboutPage">About Me</a>
           </li>
           <li>
-            <Link to="/portfolio">Portfolio</Link>
+            <a href="/PortfolioPage">Portfolio</a>
           </li>
           <li>
-            <Link to="/resume">Resume</Link>
+            <a href="/ResumePage">Resume</a>
           </li>
           <li>
-            <Link to="/contact">Contact</Link>
+            <a href="/ContactPage">Contact</a>
           </li>
         </ul>
       </nav>
@@ -29,3 +29,4 @@ const Header = () => {
 };
 
 export default Header;
+
