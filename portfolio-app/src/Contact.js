@@ -41,8 +41,10 @@ const Contact = () => {
     setErrors({ ...errors, email: emailRegex.test(value) ? '' : 'Invalid email address' });
   };
 
+  const contactLink = '#contact';
+
   return (
-    <div className="contact-container">
+    <div className="contact-container" id="contact">
       <h2>Contact Me</h2>   
       <form onSubmit={handleSubmit}>
         <div className="form-group">

@@ -1,26 +1,23 @@
 // Header.js
-import React from 'react';
-import './App.css'
+import './App.css';
+import Contact from './Contact';
 
-const Header = () => {
+const Header = ({ contactLink }) => {
   return (
     <header>
       <nav>
         <ul className="navigation">
           <li>
-            <a href="/">Home</a>
+            <a href="#about">About Me</a>
           </li>
           <li>
-            <a href="/About">About Me</a>
+            <a href="#portfolio">Portfolio</a>
           </li>
           <li>
-            <a href="/Portfolio">Portfolio</a>
+            <a href="#resume">Resume</a>
           </li>
           <li>
-            <a href="/Resume">Resume</a>
-          </li>
-          <li>
-            <a href="/Contact">Contact</a>
+            <a href={contactLink}>Contact</a>
           </li>
         </ul>
       </nav>
@@ -29,4 +26,7 @@ const Header = () => {
 };
 
 export default Header;
+
+
+
 

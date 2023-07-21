@@ -1,14 +1,15 @@
-// Resume.js
 import React from 'react';
-import './App.css'; 
+import './App.css';
 import resumeImage from './Images/info.jpeg';
 
 const Resume = () => {
+  const resumeLink = '#resume'; 
+
   return (
-    <div className="resume-container">
-      <h2>My Resume</h2>
+    <div id="resume" className="resume-container">
+      <h2>Resume</h2>
       <img src={resumeImage} alt="My Resume" className="resume-image" />
-      <a href={resumeImage} download="info.jpeg">
+      <a href={resumeLink} className="box-link">
         Download Resume
       </a>
     </div>
@@ -16,3 +17,5 @@ const Resume = () => {
 };
 
 export default Resume;
+
+
