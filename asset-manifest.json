@@ -1,0 +1,23 @@
+{
+  "files": {
+    "main.css": "/LaChaznies-React-portfolio/static/css/main.1031c930.css",
+    "main.js": "/LaChaznies-React-portfolio/static/js/main.78ae4c26.js",
+    "static/js/787.30237536.chunk.js": "/LaChaznies-React-portfolio/static/js/787.30237536.chunk.js",
+    "static/media/me.jpg": "/LaChaznies-React-portfolio/static/media/me.bdbbe15ef849305d839c.jpg",
+    "static/media/info.jpg": "/LaChaznies-React-portfolio/static/media/info.e1cdad78e9866ecc0ded.jpg",
+    "static/media/proj1.png": "/LaChaznies-React-portfolio/static/media/proj1.7618201a72277b7f19a2.png",
+    "static/media/weather2.png": "/LaChaznies-React-portfolio/static/media/weather2.24ae33695d635aff20ca.png",
+    "static/media/calendar1.png": "/LaChaznies-React-portfolio/static/media/calendar1.1016fe9a107f0dfb713a.png",
+    "static/media/Pw.png": "/LaChaznies-React-portfolio/static/media/Pw.b5249a1721d058b1388a.png",
+    "static/media/codequiz.png": "/LaChaznies-React-portfolio/static/media/codequiz.0fd43d08683a9be4c097.png",
+    "static/media/note1.png": "/LaChaznies-React-portfolio/static/media/note1.d7cdca85d0877ddea945.png",
+    "index.html": "/LaChaznies-React-portfolio/index.html",
+    "main.1031c930.css.map": "/LaChaznies-React-portfolio/static/css/main.1031c930.css.map",
+    "main.78ae4c26.js.map": "/LaChaznies-React-portfolio/static/js/main.78ae4c26.js.map",
+    "787.30237536.chunk.js.map": "/LaChaznies-React-portfolio/static/js/787.30237536.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.1031c930.css",
+    "static/js/main.78ae4c26.js"
+  ]
+}
