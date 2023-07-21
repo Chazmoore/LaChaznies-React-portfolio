@@ -1,6 +1,6 @@
 import React from 'react';
 import './App.css';
-import resumeImage from './Images/info.jpeg';
+import resumeImage from './Images/info.jpg';
 
 const Resume = () => {
   const resumeLink = '#resume'; 
